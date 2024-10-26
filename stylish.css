@@ -1,0 +1,119 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color:darkmagenta;
+}
+
+
+
+.science-fiction {
+    margin: 40px 0; /* Add some margin above and below the section */
+    text-align: center; /* Center the title */}
+.pb{
+    margin: 40px 0; /* Add some margin above and below the section */
+    text-align: center; /* Center the title */}
+.hb{
+    margin: 40px 0; /* Add some margin above and below the section */
+    text-align: center; /* Center the title */}
+.History{
+    margin: 40px 0; /* Add some margin above and below the section */
+    text-align: center; /* Center the title */}
+.cb {
+    margin: 40px 0; /* Add some margin above and below the section */
+    text-align: center; /* Center the title */}
+.rb{
+    margin: 40px 0; /* Add some margin above and below the section */
+    text-align: center; /* Center the title */}
+.mt{
+    margin: 40px 0; /* Add some margin above and below the section */
+    text-align: center; /* Center the title */}
+
+
+.book-container {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly among items */
+    flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+}
+
+.book {
+    background-color: #f9f9f9; /* Light background for book cards */
+    border: 1px solid #ccc; /* Border around each book card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside each book card */
+    width: 150px; /* Set width for each book card */
+    text-align: center; /* Center text inside book cards */
+    margin: 10px; /* Margin between book cards */
+}
+
+.book img {
+    max-width: 100%; /* Make sure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Slight rounding of image corners */
+}
+
+.book button {
+    background-color: #28a745; /* Green background for the button */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded button */
+    padding: 5px 10px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.book button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+footer{background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+
+height: 100px;
+align-items: center;
+}
+.cart {display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    color: gold;
+    font-weight: bold;
+    
+}
+

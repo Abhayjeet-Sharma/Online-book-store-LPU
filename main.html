@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylish.css">
+    <title>Moudgil Book Store</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="cart">
+            <span id="cart-count">0</span> items in cart
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Welcome to Moudgil Book Store</h1>
+        <h2>Where Book Lovers Unite</h2> <!-- Tagline added here -->
+        <p>Your one-stop shop for all your reading needs. Explore a wide selection of books, from bestsellers to
+            classics, and enjoy doorstep delivery right to your home!</p>
+    </div> <!-- Additional content -->
+
+    <div class="science-fiction">
+        <h3>Science Fiction</h3>
+        <div class="book-container">
+            <div class="book">
+                <img src="sf 6.jpeg" alt="Book 1 Cover">
+                <p>The Poppy War</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="sf 2.avif" alt="Book 2 Cover">
+                <p>Children Of Time</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="sf 3.jpeg" alt="Book 3 Cover">
+                <p>The Martian</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="sf 4.jpg" alt="Book 4 Cover">
+                <p>The Electric Kingdom</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="sf 5.jpg" alt="Book 5 Cover">
+                <p>Aline Genisis</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="mt">
+        <h3>Mystery/Thriller</h3>
+        <div class="book-container">
+            <div class="book">
+                <img src="mt 1.webp" alt="Mystery Book 1">
+                <p>Verity</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="mt 2.jpg" alt="Mystery Book 2">
+                <p>The Suitcase</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="mt 3.jpg" alt="Mystery Book 3">
+                <p>The Silent Patient</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="mt 4.jpg" alt="Mystery Book 4">
+                <p>The Housemaid</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="mt 5.webp" alt="Mystery Book 5">
+                <p>Behind Closed Doors</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <div class="History">
+            <h3>History Books</h3>
+            <div class="book-container">
+                <div class="book">
+                    <img src="hb 1.jpg" alt="Historical Fiction Book 1">
+                    <p>Guns, Germs, and Steel</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="hb 6.jpg" alt="Historical Fiction Book 2">
+                    <p>Prehistoric India</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="hb 3.jpg" alt="Historical Fiction Book 3">
+                    <p>All The Light We Cannot See</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="hb 4.jpg" alt="Historical Fiction Book 4">
+                    <p>History of Modern India</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="hb 5.jpg" alt="Historical Fiction Book 5">
+                    <p>In Search of The Cradle of Civilization</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="rb">
+            <h3>Romance</h3>
+            <div class="book-container">
+                <div class="book">
+                    <img src="rb 1.jpg" alt="Romance Book 1">
+                    <p>Technically Yours</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="rb 2.jpg" alt="Romance Book 2">
+                    <p>Forbidden</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="rb 3.avif" alt="Romance Book 3">
+                    <p>You've Reached Sam</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="rb 4.jpg" alt="Romance Book 4">
+                    <p>Love Unscipted</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="rb 6.jpg" alt="Romance Book 5">
+                    <p>Marry Me by Midnight</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="hb">
+            <h3>Hindu-Scriptures</h3>
+            <div class="book-container">
+                <div class="book">
+                    <img src="re 6.webp" alt="Non-Fiction Book 1">
+                    <p>Bhagavad Gita</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="re 2.jpg" alt="Non-Fiction Book 2">
+                    <p>Mahabharat</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="re 3.jpg" alt="Non-Fiction Book 3">
+                    <p>Ramayana</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="re 4.webp" alt="Non-Fiction Book 4">
+                    <p>The Vishnu Puran</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="re 5.jpg" alt="Non-Fiction Book 5">
+                    <p>Rig Veda</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="cb">
+            <h3>Comic Books</h3>
+            <div class="book-container">
+                <div class="book">
+                    <img src="cb 1.jpg" alt="Comic Book 1">
+                    <p>Jujutsu Kaisen</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="cb 2.jpg" alt="Comic Book 2">
+                    <p>Attack On Titan</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="cb 3.webp" alt="Comic Book 3">
+                    <p>One Punch Man</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="cb 4.jpg" alt="Comic Book 4">
+                    <p>Death Note</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="cb 5.jpg" alt="Comic Book 5">
+                    <p>Naruto</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="pb">
+            <h3>Picture Books</h3>
+            <div class="book-container">
+                <div class="book">
+                    <img src="pb 4.jpg" alt="Picture Book 1">
+                    <p>The Secret Garden</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="pb 2.jpg" alt="Picture Book 2">
+                    <p>The Boy With The Tiger's Heart</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="pb 3.webp" alt="Picture Book 3">
+                    <p>Journey To The
+                        Stars</p>
+                        <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="pb 1.png" alt="Picture Book 4">
+                    <p>Little Frog</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+                <div class="book">
+                    <img src="pb 6.webp" alt="Picture Book 5">
+                    <p>Emi's Beach Adventure</p>
+                    <button onclick="addToCart()">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Moudgil Book Store. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
